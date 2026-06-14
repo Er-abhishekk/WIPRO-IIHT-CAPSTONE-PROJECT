@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Tests.TC02_GenderSelectionTest"/>
+      <class name="Tests.TC11_BrowserTabTest"/>
+      <class name="Tests.TC20_PaginationTableTest"/>
+      <class name="Tests.TC12_MouseHoverTest"/>
+      <class name="Tests.TC16_MultipleFileUploadTest"/>
+      <class name="Tests.TC14_DragAndDropTest"/>
+      <class name="Base.BaseTest"/>
+      <class name="Tests.TC07_DatePickerTest"/>
+      <class name="Tests.TC19_DynamicTableTest"/>
+      <class name="Tests.TC10_PromptAlertTest"/>
+      <class name="Tests.TC15_SingleFileUploadTest"/>
+      <class name="Tests.TC18_StaticTableTest"/>
+      <class name="Tests.TC13_DoubleClickTest"/>
+      <class name="Tests.TC08_SimpleAlertTest"/>
+      <class name="Tests.TC05_ColorMultiSelectTest"/>
+      <class name="Tests.TC09_ConfirmationAlertTest"/>
+      <class name="Tests.TC06_AnimalDropdownTest"/>
+      <class name="Tests.TC17_SliderTest"/>
+      <class name="Tests.TC01_UserinformationTest"/>
+      <class name="Tests.TC03_WeekDaysSelectionTest"/>
+      <class name="Tests.TC04_CountryDropdownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
